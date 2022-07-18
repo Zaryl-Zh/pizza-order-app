@@ -2,14 +2,14 @@ import React from 'react'
 
 const Categories = () => {
   return (
-    <div class="categories">
+    <div className="categories">
     <ul>
-      <li class="active">Все</li>
-      <li>Мясные</li>
-      <li>Вегетарианская</li>
-      <li>Гриль</li>
-      <li>Острые</li>
-      <li>Закрытые</li>
+      <li className="active">All</li>
+      <li>Meat</li>
+      <li>Vegetarian</li>
+      <li>Grilled</li>
+      <li>Spicy</li>
+      <li>Closed</li>
     </ul>
   </div>
   )
