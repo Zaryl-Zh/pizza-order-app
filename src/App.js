@@ -6,6 +6,12 @@ import './scss/app.scss';
 import pizzas from './assets/pizzas.json';
 
 function App() {
+  fetch('https://62dc24044438813a2612103a.mockapi.io/items').then((res) => {
+    return res.json();
+  }).then((arr) => {
+    return arr
+  });
+
   return (
     <div className="wrapper">
       <Header />

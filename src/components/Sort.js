@@ -6,9 +6,6 @@ const Sort = () => {
   const [isVisible, setIsVisible] = useState(false);
   const [selected, setSelected] = useState(0);
 
-  // const sortHandler = () => {
-  //   setSortType(type)
-  // }
 
   return (
     <div className="sort">
